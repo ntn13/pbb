@@ -1,0 +1,42 @@
+@media (max-width: 991.98px) {
+    figure.image-holder {
+        height: calc(28vh - 2em);
+        min-height: 14em;
+    }
+    .gallery-col {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .gallery-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .h1, h1 {
+        font-size: 2rem;
+    }
+
+}
+@media (max-width: 479px) {
+    .gallery-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    figure.image-holder {
+        width: 100%;
+    }
+    .gallery-grid {
+        flex-wrap: wrap;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.2;
+    }
+    .h1, h1 {
+        font-size: 1.85rem;
+    }
+}
